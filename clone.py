@@ -18,13 +18,23 @@
 
 # ----- FUNCTIONS -----
 # Given A
-def product_of_two_number(num1, num2):
+def product_or_sum_of_two_numbers(num1, num2):
     result = num1 * num2
     if result <= 1000:
         print("The product is " + str(result) + ".")
     else:
         result = num1 + num2
-        print(result)
+        print("The sum is " + str(result) + ".")
         
-value_of_the_two_number = product_of_two_number(20, 30)
+value_of_the_two_number = product_or_sum_of_two_numbers(20, 30)
 
+#Given B.
+def sum_or_product_of_two_numbers():
+    number1 = 40
+    number2 = 30
+    result = number1 * number2
+    # if result <= 1000:
+    #     print("The product is : " + str(result) + ".")
+    # else:
+    #     print("The sum is: " + str(result) + ".")
+    
