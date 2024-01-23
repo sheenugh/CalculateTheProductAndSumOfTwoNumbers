@@ -30,6 +30,7 @@ print("\n")
 print("Direction: Given the number1 = 40, number 3 = 30, display the output if the product and only the product of the two number is less than or equal to 1000. Otherwise, display the sum.")
 
 # - Using def and if-else statement/function to find whether the total of the two number is product or sum, and print the result
+# Instead of using the same method in Given A, I used an alternative method.
 def sum_or_product_of_two_numbers():
     number1 = 40
     number2 = 30
