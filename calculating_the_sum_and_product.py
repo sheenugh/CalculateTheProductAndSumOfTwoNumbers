@@ -2,13 +2,10 @@
 #BSCpE 1-5
 
 
-#--------------------------------------------------------
+#=================================================================================================================================
 
 # ----- FUNCTIONS -----
-# Given A
-print("Direction: Given the number1 = 20, number 3 = 30, display the output if the product and only the product of the two number is less than or equal to 1000. Otherwise, display the sum.")
-
-# - Using def and if-else statement/function to find whether the total of the two number is product or sum, and print the result
+# - Given A: Using def and if-else statement/function to find whether the total of the two number is product or sum, and print the result.
 def product_or_sum_of_two_numbers(num1, num2):
     result = num1 * num2
     if result <= 1000:
@@ -16,7 +13,9 @@ def product_or_sum_of_two_numbers(num1, num2):
     else:
         result = num1 + num2
         return result
-        
+
+# ------ ACTUAL CODES -----
+# - This section is for the result and printing the result
 resultA = product_or_sum_of_two_numbers(20, 30)
 print("The result in Given A is " + str(resultA) + ".")
 
@@ -26,10 +25,8 @@ print("-------------------------------------------")
 print("\n")
 
 
-#Given B.
-print("Direction: Given the number1 = 40, number 3 = 30, display the output if the product and only the product of the two number is less than or equal to 1000. Otherwise, display the sum.")
 
-# - Using def and if-else statement/function to find whether the total of the two number is product or sum, and print the result
+# - Given B: Using def and if-else statement/function to find whether the total of the two number is product or sum, and print the result
 # Instead of using the same method in Given A, I used an alternative method.
 def sum_or_product_of_two_numbers():
     number1 = 40
