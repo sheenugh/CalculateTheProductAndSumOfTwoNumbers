@@ -14,6 +14,7 @@ def product_or_sum_of_two_numbers(num1, num2):
         result = num1 + num2
         return result
 
+#>>>>>>>>>> PSEUDO CODE <<<<<<<<<<
 # ------ ACTUAL CODES -----
 # - This section is for the result and printing the result
 resultA = product_or_sum_of_two_numbers(20, 30)
